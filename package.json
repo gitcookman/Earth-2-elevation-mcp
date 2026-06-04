@@ -4,7 +4,7 @@
   "description": "Local MCP server wrapping the Open-Elevation API.",
   "type": "module",
   "bin": {
-    "earth-2-elevation-mcp": "./src/index.js"
+    "earth-2-elevation-mcp": "src/index.js"
   },
   "scripts": {
     "start": "node ./src/index.js",
