@@ -1,7 +1,8 @@
 {
   "name": "earth-2-elevation-mcp",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Local MCP server wrapping the Open-Elevation API.",
+  "mcpName": "io.github.gitcookman/earth-2-elevation-mcp",
   "type": "module",
   "bin": {
     "earth-2-elevation-mcp": "src/index.js"
@@ -13,5 +14,10 @@
   "engines": {
     "node": ">=18"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gitcookman/Earth-2-elevation-mcp.git"
+  },
+  "homepage": "https://github.com/gitcookman/Earth-2-elevation-mcp",
   "license": "MIT"
 }

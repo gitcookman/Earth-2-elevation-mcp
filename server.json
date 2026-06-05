@@ -1,0 +1,21 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "io.github.gitcookman/earth-2-elevation-mcp",
+  "title": "Earth-2 Elevation MCP",
+  "description": "A local stdio MCP server that wraps the Open-Elevation API for single-point, batch, and profile elevation lookups.",
+  "repository": {
+    "url": "https://github.com/gitcookman/Earth-2-elevation-mcp",
+    "source": "github"
+  },
+  "version": "0.1.1",
+  "packages": [
+    {
+      "registryType": "npm",
+      "identifier": "earth-2-elevation-mcp",
+      "version": "0.1.1",
+      "transport": {
+        "type": "stdio"
+      }
+    }
+  ]
+}
